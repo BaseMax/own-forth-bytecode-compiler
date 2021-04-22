@@ -2,7 +2,7 @@
 
 Just a attempt to implement a own bytecode compiler.
 
-It's a own forth **virtual machine** (VM).
+A attempt to write a VM/compiler for One Programming Language. It's a own forth **virtual machine** (VM).
 
 **Date:** 2019-2020
 
