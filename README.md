@@ -26,6 +26,35 @@ type
 bye
 ```
 
+## Benchmark
+
+_test.c_:
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]) {
+  printf("Hello, world! *************!\n");
+  return 0;
+}
+```
+
+C program:
+
+```
+$ gcc test.c -o test
+$ time ./test
+real  0m0.001s
+user  0m0.001s
+sys  0m0.000s
+```
+
+Own VM:
+
+```
+$ time ./123
+real  0m0.003s
+user  0m0.003s
+sys  0m0.000s
+```
 #### How to debug machine code?
 
 ```
