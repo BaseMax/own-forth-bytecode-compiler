@@ -73,9 +73,9 @@ This is bytecode (structure) for vm.
 
 ---------------
 
-## Next step: rewrite functions with new structure
+## Second step: rewrite functions with new structure
 
-So newfile is: `forth-rewrite.c`
+So newfile is: `forth-second.c`
 
 ![rewrite own-forth vm with new structure](figure2.jpg)
 
@@ -90,6 +90,18 @@ Try in GNU/Linux:
 ```
 gcc forth.c -o forth                                            
 ./forth prg.bin     
+```
+
+![second step of own forth vm interpreter](figure3.jpg)
+
+-------
+
+## Third step:
+
+```
+$ gcc forh-third.c -o forth
+$ ./forth prg-third.bin 
+Hello World!
 ```
 
 ### So result?
