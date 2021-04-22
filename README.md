@@ -92,11 +92,11 @@ gcc forth.c -o forth
 ./forth prg.bin     
 ```
 
-![second step of own forth vm interpreter](figure3.jpg)
-
 -------
 
 ## Third step:
+
+![third step of own forth vm interpreter](figure3.jpg)
 
 ```
 $ gcc forh-third.c -o forth
