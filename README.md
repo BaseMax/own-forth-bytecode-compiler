@@ -62,7 +62,16 @@ readelf -sW ./123 > readelf.txt
 objdump -d 123 > objdump.txt
 ```
 
-#### So result?
+### Figure
+
+Whether additional functions should be distinguished into a separate category or not.
+while leaning towards some redundancy.
+
+This is bytecode (structure) for vm.
+
+![own forth virtual machine vm bytecode structure](figure.jpg)
+
+### So result?
 
 ![own forth virtual machine using pure c](image.jpg)
 
