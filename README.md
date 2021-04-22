@@ -26,4 +26,11 @@ type
 bye
 ```
 
+#### How to debug machine code?
+
+```
+readelf -sW ./123 > readelf.txt
+objdump -d 123 > objdump.txt
+```
+
 © Copyright 2019 Max Base, ValK
