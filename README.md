@@ -71,6 +71,27 @@ This is bytecode (structure) for vm.
 
 ![own forth virtual machine vm bytecode structure](figure.jpg)
 
+---------------
+
+## Next step: rewrite functions with new structure
+
+So newfile is: `forth-rewrite.c`
+
+![rewrite own-forth vm with new structure](figure2.jpg)
+
+Out input file is `cat prg.bin`.
+
+Try in Windows:
+```
+x86_64-w64-mingw32-g++ forth.c -static
+```
+
+Try in GNU/Linux:
+```
+gcc forth.c -o forth                                            
+./forth prg.bin     
+```
+
 ### So result?
 
 ![own forth virtual machine using pure c](image.jpg)
